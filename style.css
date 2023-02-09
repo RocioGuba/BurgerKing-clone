@@ -6,7 +6,7 @@
 
 header{
         position: sticky;
-}
+    }
 
 .header_Logo{
 max-width: 150px;
@@ -66,6 +66,180 @@ nav a{
     height: 37rem;
 }
 
+.textoSup{
+    margin-bottom: 15px;
+}
+h2{
+    font-size: 28px;
+}
+h3 {
+    font-size: 16px;
+}
+.submain{
+    margin-bottom: 50px;
+}
+.pickleBox{
+    display: flex;
+    flex-direction: row;
+    width: 1130px;
+    height: 280px;
+    background-color: #efe0cc;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+    margin: 20px;
+    padding: 47px 143px 47px 48px;
+}
+.input-group{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.formulario{
+    flex-direction: column;
+    display: flex;
+}
+.form-control{
+    display: block;
+    width: 435px !important;
+    height: 54px !important;
+    padding-left: 24px !important;
+    padding-right: 56px !important;    
+    
+}
+.medio{
+    display: flex;
+    flex-direction: column;
+    width: 1130px;
+    height: 437px;
+    justify-content:center;
+    align-content:space-evenly ;  
+    padding-left: 25px;  
+}
+.btn-outline-secondary{   
+    background-color: #fff;   
+    height: 54px !important;
+    
+}
+.novedadesVermas{
+    display: flex;
+    justify-content: space-between;
+    height: 65px;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    
+}
+.card{
+    background-color: #f5ebdc;
+    width: 360px;
+    height: 348px;
+    border: none;
+}
+.card-img-top{
+    width: 360px;
+    height: 240px;
+    border-radius: 15px;
+    background-color: #fff;
+    color: #502314;
+}
+.card-title{
+    font-size: 28px;
+    line-height: 1.25;
+        letter-spacing: -0.68px;
+}
+.card-text{
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: -0.41px;
+}
+.submainRed{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    padding: 25px;
+}
+
+.sectionAppsRed{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content : center;
+    height: 478px;
+        margin-top: 48px;
+}
+.imagenSmart{
+    display: block;
+}
+.smartphoneImg{
+    width: 466px;
+    height: 488px;
+}
+.home-apps__logo{
+    width: 133px;
+    height: 45px;
+}
+.redSection2{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+}
+
+.mainRed{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #d72300 !important;
+    
+}
+.text-primary{
+    font-size: 56px;
+    color: #fff !important;
+}
+
+/* .home-apps__title{
+    color: white;
+} */
+.btn-lg{
+    width: 191px;
+    height: 60px;
+}
+.deliveryBox{
+    width: 488px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: left;
+    padding: 30px;
+    align-items: center;
+    
+}
+.btnPedir{
+    display: flex;
+    background-color: #d72300;
+    color: #fff;
+    width: 392px;
+    height: 24px;
+    border-radius: 15px;
+    font-weight: bolder;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    margin: 10px;
+    
+}
+.deliveriesTitles{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
 
 /*CSS para Footer*/
 
