@@ -8,6 +8,11 @@ header{
         position: sticky;
     }
 
+ main{
+        background-color: #efe0cc !important;
+        width: 100%;
+ }
+
 .header_Logo{
 max-width: 150px;
 height: 48px;
@@ -15,7 +20,7 @@ display: block;
 object-fit: contain;
 }
 
-header_Logo_a{
+.header_Logo_a{
     max-height: 52px;
 }
 
@@ -66,6 +71,7 @@ nav a{
     height: 37rem;
 }
 
+/*CSS para Secciones de Promoción*/
 .textoSup{
     margin-bottom: 15px;
 }
@@ -75,6 +81,12 @@ h2{
 h3 {
     font-size: 16px;
 }
+
+.imgPepino{
+    width:230px; 
+    height:178px;
+}
+
 .submain{
     margin-bottom: 50px;
 }
