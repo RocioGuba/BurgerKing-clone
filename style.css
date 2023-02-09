@@ -5,6 +5,7 @@
     }
 
 header{
+    background-color: #f5ebdc;
         position: sticky;
     }
 
@@ -15,7 +16,7 @@ display: block;
 object-fit: contain;
 }
 
-header_Logo_a{
+.header_Logo_a{
     max-height: 52px;
 }
 
